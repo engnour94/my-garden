@@ -60,8 +60,11 @@ table, tr {
   } */
 
   td, th{
-    border-bottom: 1px solid white;
-    padding: 5px;
+    
+    padding: 10px  40px;
+    text-align: center;
+    vertical-align: middle;
+    
   }
 
   #form{
@@ -96,4 +99,26 @@ height:200px;
 padding: 20px;
 
 
+  }
+
+#table{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  height: 20%;
+  } 
+
+  table {
+    width: 100%;
+  }
+
+  tr {
+
+    border-bottom: 1px solid white;
+  }
+  table{
+    display: flex;
+    justify-content: space-between;
+    
   }

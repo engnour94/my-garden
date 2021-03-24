@@ -19,7 +19,7 @@ function headerRender(){
 
 function Flower( name, image,season ){
   this.name=name;
-  this.image=`/img/${image}.jpeg`;
+  this.image=`./img/${image}.jpeg`;
   this.season=season;
   Flower.all.push( this );
 }
